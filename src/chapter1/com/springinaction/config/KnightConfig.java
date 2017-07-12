@@ -14,8 +14,11 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class KnightConfig {
     @Bean
+//    public Knight knight(){
+//        return new BraveKnight(quest(), minstrel());
+//    }
     public Knight knight(){
-        return new BraveKnight(quest(), minstrel());
+        return new BraveKnight(quest());
     }
 
     @Bean
@@ -23,6 +26,7 @@ public class KnightConfig {
         return new SlayDragonQuest(System.out);
     }
 
-    public Minstrel minstrel(){return new Minstrel(System.out);}
+//    @Bean
+//    public Minstrel minstrel(){return new Minstrel(System.out);}
 
 }

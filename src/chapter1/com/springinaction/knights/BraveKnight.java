@@ -9,15 +9,21 @@ import chapter1.com.springinaction.quests.Quest;
 public class BraveKnight implements Knight {
 
     private Quest quest;
-    private Minstrel minstrel;
-
-    public BraveKnight(Quest quest, Minstrel minstrel){//构造器注入
-        this.minstrel = minstrel;
+//    private Minstrel minstrel;
+//
+//    public BraveKnight(Quest quest, Minstrel minstrel){//构造器注入
+//        this.minstrel = minstrel;
+//        this.quest = quest;
+//    }
+//    public void embarkOnQuest(){
+//        minstrel.singBeforeQuest();
+//        quest.embark();
+//        minstrel.singAfterQuest();
+//    }
+    public BraveKnight(Quest quest){
         this.quest = quest;
     }
     public void embarkOnQuest(){
-        minstrel.singBeforeQuest();
         quest.embark();
-        minstrel.singAfterQuest();
     }
 }
