@@ -12,7 +12,7 @@ import java.sql.SQLException;
  */
 public class getEmployeeById {
     public Employee getEmployeeById(long id){
-        return (new JdbcTemplate).queryForObject(
+        return (new JdbcTemplate()).queryForObject(
             "select id, firstname, lastname, salary from employee where id=?",
             new RowMapper<Employee>(){
                 public Employee mapRow(ResultSet rs, int rowNum) throws SQLException {
