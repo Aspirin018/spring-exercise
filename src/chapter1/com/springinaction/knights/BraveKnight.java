@@ -1,5 +1,6 @@
 package chapter1.com.springinaction.knights;
 
+import chapter1.com.springinaction.minstrel.Minstrel;
 import chapter1.com.springinaction.quests.Quest;
 
 /**
@@ -8,11 +9,15 @@ import chapter1.com.springinaction.quests.Quest;
 public class BraveKnight implements Knight {
 
     private Quest quest;
+    private Minstrel minstrel;
 
-    public BraveKnight(Quest quest){//构造器注入
+    public BraveKnight(Quest quest, Minstrel minstrel){//构造器注入
+        this.minstrel = minstrel;
         this.quest = quest;
     }
     public void embarkOnQuest(){
+        minstrel.singBeforeQuest();
         quest.embark();
+        minstrel.singAfterQuest();
     }
 }
