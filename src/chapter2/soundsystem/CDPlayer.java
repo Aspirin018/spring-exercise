@@ -1,0 +1,18 @@
+package chapter2.soundsystem;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+/**
+ * Created by liyu on 2017/7/12.
+ */
+public class CDPlayer implements MediaPlayer {
+    private CompactDisc cd;
+    @Autowired
+    public CDPlayer(CompactDisc cd){
+        this.cd = cd;
+    }
+    @Override
+    public void play() {
+        cd.play();
+    }
+}
