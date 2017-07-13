@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01416d1b-e40d-43b5-8cf8-3de2fe25465b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-exercise.iml" afterPath="$PROJECT_DIR$/spring-exercise.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter2/soundsystem2/BlankDisc.java" afterPath="$PROJECT_DIR$/src/chapter2/soundsystem2/BlankDisc.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml" afterPath="$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -71,8 +73,8 @@
       <file leaf-file-name="sound2.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            <state relative-caret-position="295">
+              <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -106,10 +108,16 @@
       <file leaf-file-name="BlankDisc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/BlankDisc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="543">
+              <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,8 +210,8 @@
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayerTest.java" />
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/BlankDIsc.java" />
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/Discography.java" />
-        <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/BlankDisc.java" />
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayer.java" />
+        <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/BlankDisc.java" />
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml" />
       </list>
     </option>
@@ -962,7 +970,7 @@
       <option name="presentableId" value="Default" />
       <updated>1499774631103</updated>
       <workItem from="1499774636708" duration="8912000" />
-      <workItem from="1499822606447" duration="19258000" />
+      <workItem from="1499822606447" duration="20319000" />
     </task>
     <servers />
   </component>
@@ -999,7 +1007,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28170000" />
+    <option name="totallyTimeSpent" value="29231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="24" width="1399" height="820" extended-state="0" />
@@ -1478,16 +1486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/BlankDisc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -1501,10 +1499,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/BlankDisc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        <state relative-caret-position="295">
+          <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
           <folding />
         </state>
       </provider>

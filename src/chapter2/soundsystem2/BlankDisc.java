@@ -10,13 +10,13 @@ import java.util.Set;
 public class BlankDisc implements CompactDisc {
     private String title;
     private String artist;
-//    private List<String> tracks;
-    private Set tracks;
-    public BlankDisc(String title, String artist, Set tracks){
-        this.title = title;
-        this.artist = artist;
-        this.tracks = tracks;
-    }
+    private List<String> tracks;
+//    private Set tracks;
+//    public BlankDisc(String title, String artist, Set tracks){
+//        this.title = title;
+//        this.artist = artist;
+//        this.tracks = tracks;
+//    }
 //    public BlankDisc(String title){
 //        this.title = title;
 //    }
@@ -31,4 +31,15 @@ public class BlankDisc implements CompactDisc {
         tracks.forEach(System.out::println);
     }
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setArtist(String artist) {
+        this.artist = artist;
+    }
+
+    public void setTracks(List tracks) {
+        this.tracks = tracks;
+    }
 }

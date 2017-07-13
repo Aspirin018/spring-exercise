@@ -22,22 +22,33 @@
         <!--c:_1="this is artist"/>-->
     <!--<bean id="compactDisc" class="chapter2.soundsystem2.BlankDisc"-->
         <!--c:_0="this is title"/>-->
+    <!--<bean id="compactDisc" class="chapter2.soundsystem2.BlankDisc">-->
+        <!--<constructor-arg value="this is title"/>-->
+        <!--<constructor-arg value="this is artist"/>-->
+        <!--&lt;!&ndash;<constructor-arg><null/></constructor-arg>&ndash;&gt;-->
+        <!--<constructor-arg>-->
+            <!--&lt;!&ndash;<list>&ndash;&gt;-->
+                <!--&lt;!&ndash;<value>this is first item in list</value>&ndash;&gt;-->
+                <!--&lt;!&ndash;<value>this is second item in list</value>&ndash;&gt;-->
+                <!--&lt;!&ndash;<value>this  is third item in list</value>&ndash;&gt;-->
+            <!--&lt;!&ndash;</list>&ndash;&gt;-->
+            <!--<set>-->
+                <!--<value> this is first item</value>-->
+                <!--<value> this is first item</value>-->
+                <!--<value> this is second item</value>-->
+            <!--</set>-->
+        <!--</constructor-arg>-->
+    <!--</bean>-->
     <bean id="compactDisc" class="chapter2.soundsystem2.BlankDisc">
-        <constructor-arg value="this is title"/>
-        <constructor-arg value="this is artist"/>
-        <!--<constructor-arg><null/></constructor-arg>-->
-        <constructor-arg>
-            <!--<list>-->
-                <!--<value>this is first item in list</value>-->
-                <!--<value>this is second item in list</value>-->
-                <!--<value>this  is third item in list</value>-->
-            <!--</list>-->
-            <set>
-                <value> this is first item</value>
-                <value> this is first item</value>
-                <value> this is second item</value>
-            </set>
-        </constructor-arg>
+        <property name="artist" value="this is artist"/>
+        <property name="title" value="this is title"/>
+        <property name="tracks">
+            <list>
+                <value>this is first item</value>
+                <value>this is second item</value>
+                <value>this is third item</value>
+            </list>
+        </property>
     </bean>
     <!--<bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer" c:cd-ref="compactDisc"></bean>&lt;!&ndash;使用c命名空间注入&ndash;&gt;-->
     <bean id="beatlesDiscography" class="chapter2.soundsystem2.Discography">
