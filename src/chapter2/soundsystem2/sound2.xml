@@ -39,9 +39,11 @@
             <!--</set>-->
         <!--</constructor-arg>-->
     <!--</bean>-->
-    <bean id="compactDisc" class="chapter2.soundsystem2.BlankDisc">
-        <property name="artist" value="this is artist"/>
-        <property name="title" value="this is title"/>
+    <bean id="compactDisc" class="chapter2.soundsystem2.BlankDisc"
+        p:artist="this is artist"
+        p:title="this is title">
+        <!--<property name="artist" value="this is artist"/>-->
+        <!--<property name="title" value="this is title"/>-->
         <property name="tracks">
             <list>
                 <value>this is first item</value>
