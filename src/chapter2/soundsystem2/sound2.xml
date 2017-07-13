@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c="http://www.springframework.org/schema/c"
        xmlns:p="http://www.springframework.org/schema/p" xmlns:util="http://www.springframework.org/schema/util"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
-    <bean id="sgtPeppers" class="chapter2.soundsystem2.SgtPeppers"></bean><!--没有设置id,将使用全限定类名进行命名，即chapter2.soundsystem2.SgtPeppers#0-->
+    <!--<bean id="sgtPeppers" class="chapter2.soundsystem2.SgtPeppers"></bean>&lt;!&ndash;没有设置id,将使用全限定类名进行命名，即chapter2.soundsystem2.SgtPeppers#0&ndash;&gt;-->
     <!--<bean id="compactDisc" class="chapter2.soundsystem2.SgtPeppers"></bean>-->
     <!--<bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer">&lt;!&ndash;使用constructor-arg元素注入&ndash;&gt;-->
         <!--<constructor-arg ref="compactDisc"/>-->
@@ -59,18 +59,18 @@
         <!---->
     </bean>
     <!--<bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer" c:cd-ref="compactDisc"></bean>&lt;!&ndash;使用c命名空间注入&ndash;&gt;-->
-    <bean id="beatlesDiscography" class="chapter2.soundsystem2.Discography">
-        <constructor-arg value="this is artist"/>
-        <constructor-arg>
-            <list>
-                <ref bean="sgtPeppers"/>
-                <ref bean="compactDisc"/>
-            </list>
-        </constructor-arg>
-    </bean>
+    <!--<bean id="beatlesDiscography" class="chapter2.soundsystem2.Discography">-->
+        <!--<constructor-arg value="this is artist"/>-->
+        <!--<constructor-arg>-->
+            <!--<list>-->
+                <!--<ref bean="sgtPeppers"/>-->
+                <!--<ref bean="compactDisc"/>-->
+            <!--</list>-->
+        <!--</constructor-arg>-->
+    <!--</bean>-->
     <!--<bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer">-->
         <!--<property name="cd" ref="compactDisc"></property>-->
     <!--</bean>-->
-    <bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer"
-        p:cd-ref="compactDisc"/>
+    <!--<bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer"-->
+        <!--p:cd-ref="compactDisc"/>-->
 </beans>
