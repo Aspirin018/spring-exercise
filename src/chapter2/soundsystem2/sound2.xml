@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--<bean class="chapter2.soundsystem2.SgtPeppers"></bean>&lt;!&ndash;没有设置id,将使用全限定类名进行命名，即chapter2.soundsystem2.SgtPeppers#0&ndash;&gt;-->
+    <bean id="compactDisc" class="chapter2.soundsystem2.SgtPeppers"></bean>
+    <!--<bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer">&lt;!&ndash;使用constructor-arg元素注入&ndash;&gt;-->
+        <!--<constructor-arg ref="compactDisc"/>-->
+    <!--</bean>-->
+    <bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer" c:cd-ref="compactDisc"></bean><!--使用c命名空间注入-->
+    <!--<bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer" c:_0-ref="compactDisc"></bean>-->
+    <!--<bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer" c:_-ref="compactDisc"></bean>-->
+</beans>
