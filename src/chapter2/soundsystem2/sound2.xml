@@ -38,7 +38,7 @@
             </set>
         </constructor-arg>
     </bean>
-    <bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer" c:cd-ref="compactDisc"></bean><!--使用c命名空间注入-->
+    <!--<bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer" c:cd-ref="compactDisc"></bean>&lt;!&ndash;使用c命名空间注入&ndash;&gt;-->
     <bean>
         <constructor-arg value="this is artist"/>
         <constructor-arg>
@@ -47,5 +47,8 @@
                 <ref bean="compactDisc"/>
             </list>
         </constructor-arg>
+    </bean>
+    <bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer">
+        <property name="cd" ref="compactDisc"></property>
     </bean>
 </beans>
