@@ -43,10 +43,18 @@ public class CDPlayerTest {
 //                "this is third item\n", log.getLog());
 //    }
 
+//    @Test
+//    public void play(){
+//        //ClassPathXmlApplicationContext默认架子啊classpath下的配置文件，即web-inf/classes下的
+//        ApplicationContext ctx = new ClassPathXmlApplicationContext("chapter2/soundsystem2/sound2.xml");
+//        CDPlayer cdPlayer = ctx.getBean(CDPlayer.class);
+//        cdPlayer.play();
+//        assertEquals("title:Sgt.Pepper's lonely hearts club band; artist:the beatles\n", log.getLog());
+//    }
+
     @Test
     public void play(){
-        //ClassPathXmlApplicationContext默认架子啊classpath下的配置文件，即web-inf/classes下的
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("chapter2/soundsystem2/sound2.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("chapter2/soundsystem2/rootConfig.xml");
         CDPlayer cdPlayer = ctx.getBean(CDPlayer.class);
         cdPlayer.play();
         assertEquals("title:Sgt.Pepper's lonely hearts club band; artist:the beatles\n", log.getLog());

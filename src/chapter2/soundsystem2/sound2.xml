@@ -59,8 +59,8 @@
         <!--&lt;!&ndash;</property>ue="this is title"/>&ndash;&gt;-->
         <!--&lt;!&ndash;&ndash;&gt;-->
     <!--</bean>-->
-    <context:component-scan base-package="chapter2.soundsystem2"/>
-    <bean class="chapter2.soundsystem2.CDConfig"/>
+    <!--<context:component-scan base-package="chapter2.soundsystem2"/>-->
+    <!--<bean class="chapter2.soundsystem2.CDConfig"/>-->
     <bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer" c:cd-ref="compactDisc"></bean><!--使用c命名空间注入-->
     <!--<bean id="beatlesDiscography" class="chapter2.soundsystem2.Discography">-->
         <!--<constructor-arg value="this is artist"/>-->
