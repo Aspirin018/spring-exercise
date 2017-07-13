@@ -24,7 +24,14 @@
     <bean id="compactDisc" class="chapter2.soundsystem2.BlankDisc">
         <constructor-arg value="this is title"/>
         <constructor-arg value="this is artist"/>
-        <constructor-arg><null/></constructor-arg>
+        <!--<constructor-arg><null/></constructor-arg>-->
+        <constructor-arg>
+            <list>
+                <value>this is first item in list</value>
+                <value>this is second item in list</value>
+                <value>this  is third item in list</value>
+            </list>
+        </constructor-arg>
     </bean>
     <bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer" c:cd-ref="compactDisc"></bean><!--使用c命名空间注入-->
 </beans>
