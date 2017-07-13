@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01416d1b-e40d-43b5-8cf8-3de2fe25465b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter2/soundsystem2/cd-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/chapter2/soundsystem2/CDPlayerTest.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/chapter2/soundsystem2/CDPlayerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/chapter2/soundsystem2/SoundSystemConfig.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/chapter2/soundsystem2/SoundSystemConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayerTest.java" afterPath="$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter2/soundsystem2/SoundSystemConfig.java" afterPath="$PROJECT_DIR$/src/chapter2/soundsystem2/SoundSystemConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml" afterPath="$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/chapter2/soundsystem2/sound2.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/chapter2/soundsystem2/sound2.xml" />
     </list>
@@ -34,16 +34,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CompactDisc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/CompactDisc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CDPlayerConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,7 +63,7 @@
       <file leaf-file-name="CDConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/CDConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="156">
               <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,8 +77,18 @@
       <file leaf-file-name="sound2.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="69" column="15" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="69" selection-end-column="15" />
+            <state relative-caret-position="480">
+              <caret line="75" column="36" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="75" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cd-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/cd-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -130,8 +130,8 @@
       <file leaf-file-name="CDPlayerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="347">
+              <caret line="52" column="69" lean-forward="true" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutowiredAnnotationBeanPostProcessor.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.3.9.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class">
+      <file leaf-file-name="CDPlayerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem/CDPlayerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="533" column="0" lean-forward="false" selection-start-line="533" selection-start-column="0" selection-end-line="533" selection-end-column="0" />
+            <state relative-caret-position="52">
+              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -165,8 +165,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -217,6 +217,7 @@
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayer.java" />
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayerConfig.java" />
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/SoundSystemConfig.java" />
+        <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/cd-config.xml" />
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml" />
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayerTest.java" />
       </list>
@@ -944,17 +945,11 @@
       <option name="presentableId" value="Default" />
       <updated>1499774631103</updated>
       <workItem from="1499774636708" duration="8912000" />
-      <workItem from="1499822606447" duration="24436000" />
+      <workItem from="1499822606447" duration="25344000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CDPlayerTest - 2017.07.13 at 14h 33m 39s.xml">
-      <configuration name="CDPlayerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CDPlayerTest - 2017.07.13 at 14h 34m 50s.xml">
-      <configuration name="CDPlayerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CDPlayerTest - 2017.07.13 at 14h 43m 03s.xml">
       <configuration name="CDPlayerTest" configurationId="JUnit" />
     </history-entry>
@@ -979,9 +974,15 @@
     <history-entry file="CDPlayerTest - 2017.07.13 at 14h 57m 33s.xml">
       <configuration name="CDPlayerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CDPlayerTest - 2017.07.13 at 15h 06m 53s.xml">
+      <configuration name="CDPlayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CDPlayerTest - 2017.07.13 at 15h 12m 05s.xml">
+      <configuration name="CDPlayerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33348000" />
+    <option name="totallyTimeSpent" value="34256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="24" width="1399" height="820" extended-state="0" />
@@ -1005,7 +1006,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1038,14 +1039,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.3.9.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.3.9.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1690">
@@ -1377,14 +1370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem/CDPlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/SgtPeppers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -1436,18 +1421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/CDConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/BlankDisc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
@@ -1460,19 +1433,6 @@
             <element signature="e#936#937#0" expanded="true" />
             <element signature="e#978#979#0" expanded="true" />
             <element signature="e#1014#1015#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1499,18 +1459,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/CDConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/cd-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="69" column="15" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="69" selection-end-column="15" />
+        <state relative-caret-position="480">
+          <caret line="75" column="36" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="75" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem/CDPlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="347">
+          <caret line="52" column="69" lean-forward="true" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

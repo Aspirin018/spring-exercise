@@ -39,26 +39,26 @@
             <!--</set>-->
         <!--</constructor-arg>-->
     <!--</bean>-->
-    <util:list id="trackList">
-        <value>this is first item</value>
-        <value>this is second item</value>
-        <value>this is third item</value>
-    </util:list>
-    <bean id="compactDisc" class="chapter2.soundsystem2.BlankDisc"
-        p:artist="this is artist"
-        p:title="this is title"
-        p:tracks-ref="trackList">
-        <!--<property name="artist" value="this is artist"/>-->
-        <!--<property name="title" val<property name="tracks">-->
-        <!--<list>-->
+    <!--<util:list id="trackList">-->
         <!--<value>this is first item</value>-->
         <!--<value>this is second item</value>-->
         <!--<value>this is third item</value>-->
-        <!--</list>-->
-        <!--</property>ue="this is title"/>-->
-        <!---->
-    </bean>
-    <!--<bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer" c:cd-ref="compactDisc"></bean>&lt;!&ndash;使用c命名空间注入&ndash;&gt;-->
+    <!--</util:list>-->
+    <!--<bean id="compactDisc" class="chapter2.soundsystem2.BlankDisc"-->
+        <!--p:artist="this is artist"-->
+        <!--p:title="this is title"-->
+        <!--p:tracks-ref="trackList">-->
+        <!--&lt;!&ndash;<property name="artist" value="this is artist"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="title" val<property name="tracks">&ndash;&gt;-->
+        <!--&lt;!&ndash;<list>&ndash;&gt;-->
+        <!--&lt;!&ndash;<value>this is first item</value>&ndash;&gt;-->
+        <!--&lt;!&ndash;<value>this is second item</value>&ndash;&gt;-->
+        <!--&lt;!&ndash;<value>this is third item</value>&ndash;&gt;-->
+        <!--&lt;!&ndash;</list>&ndash;&gt;-->
+        <!--&lt;!&ndash;</property>ue="this is title"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;&ndash;&gt;-->
+    <!--</bean>-->
+    <bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer" c:cd-ref="compactDisc"></bean><!--使用c命名空间注入-->
     <!--<bean id="beatlesDiscography" class="chapter2.soundsystem2.Discography">-->
         <!--<constructor-arg value="this is artist"/>-->
         <!--<constructor-arg>-->
@@ -71,6 +71,7 @@
     <!--<bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer">-->
         <!--<property name="cd" ref="compactDisc"></property>-->
     <!--</bean>-->
+    <import resource="cd-config.xml"/>
     <!--<bean id="cdPlayer" class="chapter2.soundsystem2.CDPlayer"-->
         <!--p:cd-ref="compactDisc"/>-->
 </beans>
