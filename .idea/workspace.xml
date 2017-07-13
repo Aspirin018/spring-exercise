@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01416d1b-e40d-43b5-8cf8-3de2fe25465b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter2/soundsystem2/Discography.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml" afterPath="$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,23 +30,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CDPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SgtPeppers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/SgtPeppers.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,8 +72,18 @@
       <file leaf-file-name="sound2.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+            <state relative-caret-position="450">
+              <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Discography.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/Discography.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -204,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayerTest.java" />
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/BlankDIsc.java" />
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/BlankDisc.java" />
+        <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/Discography.java" />
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml" />
       </list>
     </option>
@@ -959,7 +954,7 @@
       <option name="presentableId" value="Default" />
       <updated>1499774631103</updated>
       <workItem from="1499774636708" duration="8912000" />
-      <workItem from="1499822606447" duration="17921000" />
+      <workItem from="1499822606447" duration="18232000" />
     </task>
     <servers />
   </component>
@@ -996,7 +991,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26833000" />
+    <option name="totallyTimeSpent" value="27144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="24" width="1399" height="820" extended-state="0" />
@@ -1490,10 +1485,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/Discography.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem2/sound2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+        <state relative-caret-position="450">
+          <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
           <folding />
         </state>
       </provider>
