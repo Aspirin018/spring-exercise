@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01416d1b-e40d-43b5-8cf8-3de2fe25465b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter3/assemble/DataSourceConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter3/assemble/ProductionProfileConfig.java" afterPath="$PROJECT_DIR$/src/chapter3/assemble/ProductionProfileConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter3/assemble/devDataSource.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,16 +29,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpringJUnit4ClassRunner.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-test-4.3.9.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JUnitCore.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/junit-4.4.jar!/org/junit/runner/JUnitCore.class">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSourceConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataSourceConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/DataSourceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -105,6 +93,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="devDataSource.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/devDataSource.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,8 +147,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -208,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/chapter3/assemble/DevelopmentProfileConfig.java" />
         <option value="$PROJECT_DIR$/src/chapter3/assemble/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/src/chapter3/assemble/ProductionProfileConfig.java" />
+        <option value="$PROJECT_DIR$/src/chapter3/assemble/devDataSource.xml" />
       </list>
     </option>
   </component>
@@ -907,7 +906,7 @@
       <option name="presentableId" value="Default" />
       <updated>1499774631103</updated>
       <workItem from="1499774636708" duration="8912000" />
-      <workItem from="1499822606447" duration="29087000" />
+      <workItem from="1499822606447" duration="29265000" />
     </task>
     <servers />
   </component>
@@ -944,7 +943,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37999000" />
+    <option name="totallyTimeSpent" value="38177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="24" width="1399" height="820" extended-state="0" />
@@ -1009,7 +1008,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter1/com/springinaction/main/applicationContext.xml" />
     <entry file="file://$PROJECT_DIR$/src/chapter1/com/springinaction/quests/Quest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1502,6 +1500,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/devDataSource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
