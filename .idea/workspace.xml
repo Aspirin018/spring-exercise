@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01416d1b-e40d-43b5-8cf8-3de2fe25465b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter3/assemble/DevelopmentProfileConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter3/assemble/ProductionProfileConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-exercise.iml" afterPath="$PROJECT_DIR$/spring-exercise.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter3/assemble/DataSourceConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter3/assemble/ProductionProfileConfig.java" afterPath="$PROJECT_DIR$/src/chapter3/assemble/ProductionProfileConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,23 +31,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ParentRunner.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
-              <folding>
-                <element signature="e#2137#2138#0" expanded="true" />
-                <element signature="e#2181#2182#0" expanded="true" />
-                <element signature="e#5891#6026#0" expanded="true" />
-                <element signature="e#6025#6026#0" expanded="true" />
-                <element signature="e#6429#6593#0" expanded="true" />
-                <element signature="e#6592#6593#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SpringJUnit4ClassRunner.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-test-4.3.9.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,8 +76,8 @@
       <file leaf-file-name="DevelopmentProfileConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/DevelopmentProfileConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="208">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +85,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductionProfileConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductionProfileConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/ProductionProfileConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+            <state relative-caret-position="364">
+              <caret line="22" column="7" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSourceConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/DataSourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/CDPlayerTest.java" />
         <option value="$PROJECT_DIR$/src/chapter2/soundsystem2/rootConfig.xml" />
         <option value="$PROJECT_DIR$/src/chapter3/assemble/DevelopmentProfileConfig.java" />
+        <option value="$PROJECT_DIR$/src/chapter3/assemble/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/src/chapter3/assemble/ProductionProfileConfig.java" />
       </list>
     </option>
@@ -911,7 +907,7 @@
       <option name="presentableId" value="Default" />
       <updated>1499774631103</updated>
       <workItem from="1499774636708" duration="8912000" />
-      <workItem from="1499822606447" duration="28765000" />
+      <workItem from="1499822606447" duration="29087000" />
     </task>
     <servers />
   </component>
@@ -948,7 +944,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37677000" />
+    <option name="totallyTimeSpent" value="37999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="24" width="1399" height="820" extended-state="0" />
@@ -1013,14 +1009,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter1/com/springinaction/knights/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/com/springinaction/main/applicationContext.xml" />
     <entry file="file://$PROJECT_DIR$/src/chapter1/com/springinaction/quests/Quest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1489,8 +1477,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/DevelopmentProfileConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="208">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1499,8 +1487,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/ProductionProfileConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="364">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
