@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Import;
  * Created by liyu on 2017/7/12.
  */
 @Configuration
-@Import(CDConfig.class)
+//@Import(CDConfig.class)
 public class CDPlayerConfig {
 //    @Bean //默认bean id 为方法名
 ////    @Bean(name="lonelyHeartsClubBand")
