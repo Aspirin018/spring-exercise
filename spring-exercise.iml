@@ -17,6 +17,7 @@
           <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
           <file>file://$MODULE_DIR$/src/chapter1/com/springinaction/config/KnightConfig.java</file>
           <file>file://$MODULE_DIR$/src/chapter2/soundsystem2/sound2.xml</file>
+          <file>file://$MODULE_DIR$/src/chapter2/soundsystem2/rootConfig.xml</file>
         </fileset>
       </configuration>
     </facet>
