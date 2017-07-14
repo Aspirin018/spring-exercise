@@ -1,5 +1,6 @@
 package chapter3.assemble.lunch;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.*;
 
 /**
@@ -7,7 +8,7 @@ import org.springframework.context.annotation.*;
  */
 @Configuration
 @ComponentScan(basePackages = "chapter3.assemble.lunch")
-@ImportResource("classpath:chapter3/assemble/lunch/lunch.xml") //将bean放在xml中时，需要import
+//@ImportResource("classpath:chapter3/assemble/lunch/lunch.xml") //将bean放在xml中时，需要import
 public class LunchConfig {
 
 //    @Bean
@@ -15,4 +16,9 @@ public class LunchConfig {
 //    public Cake getCake(){
 //        return new Cake();
 //    }
+    @Bean
+    @Qualifier("cold")
+    public Dessert iceCream(){
+        return new IceCream();
+    }
 }

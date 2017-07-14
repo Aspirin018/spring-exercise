@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by liyu on 2017/7/14.
  */
-@Component
-@Qualifier("cold")
+//@Component
+//@Qualifier("cold")
 public class IceCream implements Dessert {
 }
