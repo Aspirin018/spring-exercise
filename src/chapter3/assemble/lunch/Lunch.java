@@ -12,7 +12,8 @@ import org.springframework.stereotype.Component;
 public class Lunch {
     private Dessert dessert;
     @Autowired
-    @Qualifier("iceCream")
+//    @Qualifier("iceCream")
+    @Qualifier("cold")
     public void setDessert(Dessert dessert) {
         this.dessert = dessert;
     }
