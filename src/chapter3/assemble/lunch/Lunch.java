@@ -1,0 +1,16 @@
+package chapter3.assemble.lunch;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+/**
+ * Created by liyu on 2017/7/14.
+ */
+@Component
+public class Lunch {
+    private Dessert dessert;
+    @Autowired
+    public void setDessert(Dessert dessert) {
+        this.dessert = dessert;
+    }
+}
