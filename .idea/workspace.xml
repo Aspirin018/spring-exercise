@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="01416d1b-e40d-43b5-8cf8-3de2fe25465b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/chapter3/assemble/lunch/Cake.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/chapter3/assemble/lunch/Cake.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/chapter3/assemble/lunch/LunchConfig.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/chapter3/assemble/lunch/LunchConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter3/assemble/lunch/Cake.java" afterPath="$PROJECT_DIR$/src/chapter3/assemble/lunch/Cake.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfig.java" afterPath="$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfig.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +32,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Cake.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cake.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/Cake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="156">
+              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="9" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,13 +88,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LunchConfig.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LunchConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,10 +105,11 @@
       <file leaf-file-name="LunchConfigTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfigTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="216">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
                 <element signature="e#623#624#0" expanded="true" />
               </folding>
             </state>
@@ -214,8 +219,8 @@
         <option value="$PROJECT_DIR$/src/chapter3/assemble/LunchConfigTest.java" />
         <option value="$PROJECT_DIR$/src/chapter3/assemble/LunchConfig.java" />
         <option value="$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfigTest.java" />
-        <option value="$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfig.java" />
         <option value="$PROJECT_DIR$/src/chapter3/assemble/lunch/Cake.java" />
+        <option value="$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfig.java" />
       </list>
     </option>
   </component>
@@ -991,17 +996,11 @@
       <updated>1499774631103</updated>
       <workItem from="1499774636708" duration="8912000" />
       <workItem from="1499822606447" duration="31547000" />
-      <workItem from="1499995364292" duration="4900000" />
+      <workItem from="1499995364292" duration="5038000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CDPlayerTest - 2017.07.13 at 15h 32m 45s.xml">
-      <configuration name="CDPlayerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CDPlayerTest - 2017.07.13 at 15h 39m 34s.xml">
-      <configuration name="CDPlayerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CDPlayerTest - 2017.07.13 at 15h 40m 06s.xml">
       <configuration name="CDPlayerTest" configurationId="JUnit" />
     </history-entry>
@@ -1020,6 +1019,12 @@
     <history-entry file="LunchConfigTest - 2017.07.14 at 12h 02m 18s.xml">
       <configuration name="LunchConfigTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LunchConfigTest - 2017.07.14 at 12h 04m 20s.xml">
+      <configuration name="LunchConfigTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LunchConfigTest - 2017.07.14 at 12h 04m 56s.xml">
+      <configuration name="LunchConfigTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="chapter3_assemble_in_spring-exercise - 2017.07.14 at 11h 03m 57s.xml">
       <configuration name="chapter3.assemble in spring-exercise" configurationId="JUnit" />
     </history-entry>
@@ -1028,11 +1033,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45359000" />
+    <option name="totallyTimeSpent" value="45497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1053,7 +1058,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1481,18 +1486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/Lunch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2/soundsystem/CDPlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -1511,10 +1504,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/Cake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="156">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="9" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1523,21 +1516,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="216">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
             <element signature="e#623#624#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/Cake.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/Lunch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="138">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
           </folding>
         </state>
       </provider>
