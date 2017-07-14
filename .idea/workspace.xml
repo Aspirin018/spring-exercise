@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01416d1b-e40d-43b5-8cf8-3de2fe25465b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter3/assemble/lunch/Cake.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter3/assemble/lunch/Cookie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter3/assemble/lunch/Dessert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter3/assemble/lunch/IceCream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter3/assemble/lunch/Lunch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/chapter3/assemble/dataSource.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/chapter3/assemble/dataSource.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/classes/chapter3/assemble/lunch/Cake.class" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/chapter3/assemble/lunch/Cake.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter3/assemble/lunch/Cake.java" afterPath="$PROJECT_DIR$/src/chapter3/assemble/lunch/Cake.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,12 +30,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Cake.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Cake.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/Cake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="234">
+              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,14 +98,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LunchConfigTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LunchConfigTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfigTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="268">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
                 <element signature="e#623#624#0" expanded="true" />
               </folding>
             </state>
@@ -170,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter1/com/springinaction/minstrel/Minstrel.java" />
         <option value="$PROJECT_DIR$/src/chapter1/com/springinaction/knights/BraveKnight.java" />
         <option value="$PROJECT_DIR$/src/chapter1/com/springinaction/config/KnightConfig.java" />
         <option value="$PROJECT_DIR$/src/chapter1/com/springinaction/tests/BraveKnightTest.java" />
@@ -221,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/chapter3/assemble/LunchConfig.java" />
         <option value="$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfigTest.java" />
         <option value="$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfig.java" />
+        <option value="$PROJECT_DIR$/src/chapter3/assemble/lunch/Cake.java" />
       </list>
     </option>
   </component>
@@ -996,14 +991,11 @@
       <updated>1499774631103</updated>
       <workItem from="1499774636708" duration="8912000" />
       <workItem from="1499822606447" duration="31547000" />
-      <workItem from="1499995364292" duration="4775000" />
+      <workItem from="1499995364292" duration="4900000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CDPlayerTest - 2017.07.13 at 15h 32m 23s.xml">
-      <configuration name="CDPlayerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CDPlayerTest - 2017.07.13 at 15h 32m 45s.xml">
       <configuration name="CDPlayerTest" configurationId="JUnit" />
     </history-entry>
@@ -1025,6 +1017,9 @@
     <history-entry file="LunchConfigTest - 2017.07.14 at 11h 59m 53s.xml">
       <configuration name="LunchConfigTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LunchConfigTest - 2017.07.14 at 12h 02m 18s.xml">
+      <configuration name="LunchConfigTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="chapter3_assemble_in_spring-exercise - 2017.07.14 at 11h 03m 57s.xml">
       <configuration name="chapter3.assemble in spring-exercise" configurationId="JUnit" />
     </history-entry>
@@ -1033,7 +1028,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45234000" />
+    <option name="totallyTimeSpent" value="45359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="6" />
@@ -1462,14 +1457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/Cake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/Cookie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1536,12 +1523,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/LunchConfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="268">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
             <element signature="e#623#624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/assemble/lunch/Cake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
