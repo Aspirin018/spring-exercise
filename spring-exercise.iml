@@ -13,11 +13,12 @@
     </facet>
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false">
+        <fileset id="fileset" name="Spring Application Context" removed="false" profiles="dev">
           <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
           <file>file://$MODULE_DIR$/src/chapter1/com/springinaction/config/KnightConfig.java</file>
           <file>file://$MODULE_DIR$/src/chapter2/soundsystem2/sound2.xml</file>
           <file>file://$MODULE_DIR$/src/chapter2/soundsystem2/rootConfig.xml</file>
+          <file>file://$MODULE_DIR$/src/chapter3/assemble/dataSource.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -97,6 +98,15 @@
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/system-rules-1.16.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/JDBC jar/commons-dbcp-1.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
