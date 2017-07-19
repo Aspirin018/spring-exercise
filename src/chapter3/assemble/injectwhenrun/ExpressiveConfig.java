@@ -17,9 +17,14 @@ public class ExpressiveConfig {
     Environment env;
     @Bean
     public BlankDisc blankDisc(){
-        return new BlankDisc(
-            env.getProperty("disc.title"),
-            env.getProperty("disc.artist")
-        );
+        boolean titleExist = env.containsProperty("disc.title");
+        boolean artistExist = env.containsProperty("disc.artist");
+        if(titleExist && artistExist){
+            return new BlankDisc(
+                    env.getProperty("disc.title"),
+                    env.getProperty("disc.artist")
+            );
+        }
+        return null;
     }
 }
