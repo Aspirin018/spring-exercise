@@ -1,7 +1,6 @@
 package chapter3.assemble.injectwhenrun;
 
-import chapter2.soundsystem.CDPlayerConfig;
-import chapter2.soundsystem.MediaPlayer;
+import chapter2.soundsystem2.CompactDisc;
 import chapter2.soundsystem2.BlankDisc;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,6 +10,7 @@ import org.springframework.core.env.Environment;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import static junit.framework.TestCase.assertSame;
 import static org.junit.Assert.assertNotNull;
 
 /**
@@ -22,7 +22,7 @@ import static org.junit.Assert.assertNotNull;
 public class ExpressiveConfigTest {
 //    @Autowired
 //    private BlankDisc blankDisc;
-
+//
 //    @Test
 //    public void cdShouldNotBeNull(){
 //        assertNotNull(blankDisc);
@@ -30,11 +30,18 @@ public class ExpressiveConfigTest {
     @Autowired
     Environment env;
 
-    @Test(expected = IllegalStateException.class)
-    public void discShouldThrowException(){
-        new BlankDisc(
-                env.getProperty("disc.title"),
-                env.getRequiredProperty("disc.artist")
-        );
+//    @Test(expected = IllegalStateException.class)
+//    public void discShouldThrowException(){
+//        new BlankDisc(
+//                env.getProperty("disc.title"),
+//                env.getRequiredProperty("disc.artist")
+//        );
+//    }
+
+    @Test
+    public void getClassFromEnv() {
+        Class<CompactDisc> cdClass = env.getPropertyAsClass("disc.class", CompactDisc.class);
+        assertSame("should be same", cdClass, BlankDisc.class);
     }
+
 }

@@ -28,9 +28,4 @@ public class ExpressiveConfig {
         }
         return null;
     }
-
-    public Class returnBlankDiscClass(){
-        Class<CompactDisc> cdClass = env.getPropertyAsClass("disc.class", CompactDisc.class);
-        return cdClass;
-    }
 }
