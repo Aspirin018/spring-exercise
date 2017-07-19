@@ -1,5 +1,6 @@
 package chapter3.assemble.injectwhenrun;
 
+import chapter2.soundsystem.CompactDisc;
 import chapter2.soundsystem2.BlankDisc;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -26,5 +27,10 @@ public class ExpressiveConfig {
             );
         }
         return null;
+    }
+
+    public Class returnBlankDiscClass(){
+        Class<CompactDisc> cdClass = env.getPropertyAsClass("disc.class", CompactDisc.class);
+        return cdClass;
     }
 }
