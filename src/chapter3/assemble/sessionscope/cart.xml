@@ -6,5 +6,6 @@
           class="chapter3.assemble.sessionscope.ShoppingCartAsCLass"
           scope="session">
         <aop:scoped-proxy/><!--默认创建基于目标类的代理-->
+        <!--<aop:scoped-proxy proxy-target-class="false"/>-->
     </bean>
 </beans>
