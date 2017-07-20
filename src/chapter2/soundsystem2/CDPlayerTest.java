@@ -45,7 +45,7 @@ public class CDPlayerTest {
 
 //    @Test
 //    public void play(){
-//        //ClassPathXmlApplicationContext默认架子啊classpath下的配置文件，即web-inf/classes下的
+//        //ClassPathXmlApplicationContext默认加载classpath下的配置文件，即web-inf/classes下的
 //        ApplicationContext ctx = new ("chapter2/soundsystem2/sound2.xml");
 //        CDPlayer cdPlayer = ctx.getBean(CDPlayer.class);
 //        cdPlayer.play();
