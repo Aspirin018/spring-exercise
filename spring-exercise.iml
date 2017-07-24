@@ -19,6 +19,8 @@
           <file>file://$MODULE_DIR$/src/chapter2/soundsystem2/sound2.xml</file>
           <file>file://$MODULE_DIR$/src/chapter2/soundsystem2/rootConfig.xml</file>
           <file>file://$MODULE_DIR$/src/chapter3/assemble/dataSource.xml</file>
+          <file>file://$MODULE_DIR$/src/chapter3/assemble/sound/sound.xml</file>
+          <file>file://$MODULE_DIR$/src/chapter4/critic/critic.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -36,17 +38,6 @@
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Spring-4.3.9.RELEASE" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/mockito-all-1.9.5.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/mockito-all-1.9.5.jar!/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="Spring MVC-4.3.9.RELEASE" level="project" />
     <orderEntry type="module-library">
       <library>
@@ -54,7 +45,9 @@
           <root url="file://$MODULE_DIR$/web/WEB-INF/lib" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/spring-expression-4.3.9.RELEASE-sources.jar!/" />
+        </SOURCES>
         <jarDirectory url="file://$MODULE_DIR$/web/WEB-INF/lib" recursive="false" />
       </library>
     </orderEntry>
@@ -62,15 +55,6 @@
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/spring_core/aop/aopalliance.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/spring_core/aop/aspectjweaver.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -107,6 +91,90 @@
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/JDBC jar/commons-dbcp-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/mockito-1.9.0/mockito-all-1.9.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/mockito-1.9.0/mockito-all-1.9.0.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-all-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-all-1.2.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-core-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-core-1.2.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-generator-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-generator-1.2.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-integration-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-integration-1.2.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-library-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-library-1.2.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/spring_core/aop/aspectjrt-1.8.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Documents/Java资料/Java/Java/jar包/spring_core/aop/aspectjweaver-1.8.9.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

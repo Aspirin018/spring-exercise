@@ -7,6 +7,43 @@
         <element id="directory" name="classes">
           <element id="module-output" name="spring-exercise" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/junit-4.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/aopalliance-1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-tx-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-aop-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-jms-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-oxm-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-web-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-core-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-jdbc-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-test-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-aspects-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-messaging-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-websocket-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-portlet-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-context-support-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/spring-instrument-tomcat-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Java资料/Java/Java/jar包/spring_core/aop/aopalliance.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Java资料/Java/Java/jar包/spring_core/aop/aspectjweaver.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Java资料/Java/Java/jar包/junit-4.12.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Java资料/Java/Java/jar包/spring_core/javax.inject-1.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Java资料/Java/Java/jar包/system-rules-1.16.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Java资料/Java/Java/jar包/JDBC jar/commons-dbcp-1.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Java资料/Java/Java/jar包/mockito-1.9.0/mockito-all-1.9.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-all-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-core-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-generator-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-integration-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Documents/Java资料/Java/Java/jar包/hamcrest1.2/hamcrest-library-1.2.jar" />
+        </element>
       </element>
     </root>
   </artifact>
