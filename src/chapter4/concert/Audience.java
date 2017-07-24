@@ -25,7 +25,7 @@ public class Audience {
 //        System.out.println("Demanding a refund");
 //    }
 
-    @Pointcut("execution(* chpter4.concert.Performance.perform(..))")
+    @Pointcut("execution(* chapter4.concert.Performance.perform(..))")
     public void performance(){};
 
 //    @Before("performance()")
