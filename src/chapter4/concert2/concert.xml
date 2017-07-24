@@ -11,13 +11,20 @@
                 <!--<aop:after-throwing pointcut="execution(* chapter4.concert2.Performance.perform(..))" method="demandRefund"/>-->
             <!--</aop:aspect>-->
 
+    <!--<aop:config>-->
+        <!--<aop:aspect ref="audience">-->
+            <!--<aop:pointcut id="performance" expression="execution(* chapter4.concert2.Performance.perform(..))"/>-->
+            <!--<aop:before pointcut-ref="performance" method="silenceCellPhones"/>-->
+            <!--<aop:before pointcut-ref="performance" method="takeSeats"/>-->
+            <!--<aop:after-returning pointcut-ref="performance" method="applause"/>-->
+            <!--<aop:after-throwing pointcut-ref="performance" method="demandRefund"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
     <aop:config>
         <aop:aspect ref="audience">
             <aop:pointcut id="performance" expression="execution(* chapter4.concert2.Performance.perform(..))"/>
-            <aop:before pointcut-ref="performance" method="silenceCellPhones"/>
-            <aop:before pointcut-ref="performance" method="takeSeats"/>
-            <aop:after-returning pointcut-ref="performance" method="applause"/>
-            <aop:after-throwing pointcut-ref="performance" method="demandRefund"/>
+            <aop:around pointcut-ref="performance" method="watchperformance"/>
         </aop:aspect>
     </aop:config>
 </beans>
