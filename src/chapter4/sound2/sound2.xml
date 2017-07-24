@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+        <bean id="trackCounter" class="chapter4.sound2.TrackCounter"></bean>
+        <bean id="cd" class="chapter4.sound2.BlankDisc">
+            <property name="title" value="this is title"/>
+            <property name="artist" value="this is artist"/>
+            <property name="tracks">
+                <list>
+                    <value>fist track</value>
+                    <value>second track</value>
+                    <value>third track</value>
+                    <value>fourth track</value>
+                    <value>fifth track</value>
+                </list>
+            </property>
+        </bean>
+        <aop:config>
+            <aop:aspect ref="trackCounter">
+                <aop:pointcut id="trackPlayed" expression="execution(* chapter4.sound2.CompactDisc.playTrack(int)) and args(trackNumber))"/>
+                <aop:before pointcut-ref="trackPlayed" method="countTrack"/>
+            </aop:aspect>
+        </aop:config>
+</beans>
